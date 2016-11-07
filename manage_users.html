@@ -1,0 +1,7 @@
+<h3>All registered users:</h3>
+<ul>
+    <li ng-repeat="user in self.allUsers">
+        {{user.id}} ({{user.name}} {{user.address}})
+        - <a href="#" ng-click="self.deleteUser(user.id)">Delete</a>
+    </li>
+</ul>

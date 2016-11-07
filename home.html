@@ -1,0 +1,34 @@
+
+<div ng-controller="UserController as ctrl">
+
+	<div ng-show='globals.currentUser.username'>
+		<div class="alert alert-info fade in">
+			<p>Welcome :{{globals.currentUser.username}}</p>
+			<p>You logged in as {{globals.currentUser.role}}
+		</div>
+
+	</div>
+	
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="bg-primary">Jobs</h3>
+      <p>You can view and apply jobs</p>
+      <p>You can apply for a particular job after login</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="bg-primary">Blogs</h3>
+      <p>You can view the blogs before login.</p>
+      <p>If you want to write the blog, you need to login.  The blog can be approved/rejected by the Admin.</p>
+     
+    </div>
+    <div class="col-sm-4">
+      <h3 class="bg-primary">Alumni / Student</h3>
+      <p class="bg-info">This site is main for Alumni and Students of this Organization ...</p>
+     
+    </div>
+  </div>
+</div>
+	
+	
+</div>
